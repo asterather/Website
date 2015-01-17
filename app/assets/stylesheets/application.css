@@ -1,0 +1,191 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+/*applies universally*/
+h1{
+  color:blue;
+  font-family:Trebuchet;
+  font-size:30px;
+}
+
+body{
+  background-color:orange;
+}
+
+/*how all the links look and react*/
+a{
+  text-decoration:none;
+  color:teal;
+}
+
+
+/*This actually worked! Nice! Changes the pink border to blue
+on hover and continues the reactive properties.*/
+
+
+.nav_bar ul li a{
+  color: white;
+  text-decoration: none;
+}
+.nav_bar ul li a:visited{
+  color:white;
+}
+.nav_bar ul li a:active{
+  color:red;
+}
+
+.nav_bar ul li a:hover{
+  color:purple;
+}
+/*Makes the links do how they do. */
+.nav_bar{
+  border: 3px solid black;
+  border-radius: 20px;
+  height:auto;
+  width:700px;
+  background-color:teal;
+  margin: 0 auto;
+  margin-bottom: 10px ;
+}
+
+.nav_bar ul{
+  list-style-type:none;
+  text-align: center;
+  padding:10px 40px;
+}
+
+.nav_bar ul li{
+  width:auto;
+  display:inline;
+  padding:3px;
+
+}
+
+p{
+ font-family:Trebuchet;
+ font-size:1.5em;
+}
+ 
+.name{
+ font-family:sans-serif;
+ color:blue;
+ text-align:center;
+}
+/*home/index page section. Bitch.*/
+
+
+
+#head{
+  border:3px solid #000666;
+  text-align: center;
+  border-radius: 70%;
+  height: 300px;
+  width: 500px;
+  position: relative;
+  background-color: teal;
+  margin: 0 auto;
+}
+#foot{
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  background-color: #000666;
+  color:white;
+  box-shadow: 10px 10px 5px gray;
+}
+
+h{
+  font-size: 0.8em;
+  color:white;
+}
+
+#color{
+  background-color:teal;
+}
+
+#middle{
+  background-color:blue;
+}
+
+/*contact section*/
+#back_image{
+  background-color:#680000;
+}
+#parent{
+  border: 1px solid black;
+  height:auto;
+  width:700px;
+  position:relative;
+  margin:0 auto;
+}
+
+#first{
+  border:3px solid purple;
+  width:694px;
+  height:auto;
+  position:fixed;
+  font-family: sans-serif;
+  background-color:blue;
+}
+
+#elements{
+  border:3px solid red;
+  height:auto;
+  width:auto;
+  margin: auto;
+  font-size:12pt;
+  background-color:teal;
+}
+
+#dev{
+  border:3px solid purple;
+  color:teal;
+  width:auto;
+  height:auto;
+  background-color:orange;
+  
+}
+#nep{
+  border:3px solid navy;
+  color:#ff6666;
+  width:auto;
+  height:auto;
+  position:relative;
+  background-color:yellow;
+}
+
+/*About section*/
+
+/*the form and the button stuff*/
+#box label{
+  width: 175px;
+  height: 12pt;
+  float: left;
+
+}
+#box .button{
+  margin-left: 230px;
+
+}
+/*the videos,maps, and tweets.*/
+#container{
+  text-align: center;
+}
+
+#background{
+  background-image: url('images/wood.jpg');
+  color:white;
+}

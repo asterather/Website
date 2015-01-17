@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns = "http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv = "Content-type" content = "text/html; charset =UTF-8"/>
+<meta name = "keywords" content = "HTML, XHTML, programming"/>
+<meta name = "description" content = "A test website where I'm learning things"/>
+<meta name = "author" name1 = "Mookie Chess"/>
+<script type="text/javascript">
+ function ExampleJS(){
+    var first = document.getElementById("f_Name").value;
+    var second = document.getElementById("l_Name").value;
+    var emal = document.getElementById("email").value;
+    var pass = document.getElementById("pass1").value;
+    var past = document.getElementById("pass2").value;
+    
+    if(pass == past){
+    alert("Your name is: " + first + " " + second + "<br />" + "Your email is: " + emal + "<br />" + "Your passwords match.");
+ }else{
+   alert ("Your passwords don't match." + "<br />" + "Try again.");
+ }
+ }</script>
+<link rel = "stylesheet" type = "text/css" href = "style.css"/>
+  <title>About</title>
+</head>
+<div class = "nav_bar">
+  <ul>
+    <li>  <a href ="index.html">Homepage</a></li>
+    <li>  <a href ="about.html">About</a></li>
+    <li>  <a href ="contact.html">Contact</a></li>
+    <li>  <a href ="admin.html">Admin</a></li>
+    <li>  <a href ="test.txt">text file</a></li>
+    <li>  <a href = "contact.html#hep">HTML Development</a></li>
+  </ul>
+  </div><br />
+<body id = "background">
+<h1>About</h1>
+<h4>It's me! Mookie!</h4>
+<img src = "images/Boris.jpg" width = "300px" height = "200px" alt = "Picture of me"/><br />
+<p>I am on <a href = "https://plus.google.com/101488159983725354983/posts" target = "_blank">
+  <img src = "images/G+.jpg" width="20px" height = "20px" alt = "Google Plus Icon" title = "Google+"/></a> all the time</p><br />
+<br />
+
+
+ <!--  basic form input thingie 
+  First name: <input type="text" id="fname" name="firstname" /><br />
+<form name = "myform" onWerfwerf="JavaScript:ExampleJS()">
+ Want more cool things? Register your face, bitches!<br /> <br />
+    First Name:<input type = "text" id = "f_Name" name = "fname"><br /> Enter Name, Email address, and Password
+    Last Name:<input type = "text" id = "l_Name" name = "lname"><br />
+    Email address:<input type = "text" id = "email"><br />
+    Password:<input type = "password" id = "pass1" name = "passwd"><br />
+    Re-Enter Password:<input type = "password" id = "pass2" name = "paswd"><br />
+    <input name="Werfwerf"  type="submit" value="Update" /> -->
+    <!--<input class = "button" type = "button" name = "werfwerf" value = "Submit!"/> button to submit-->
+
+<!--YouTube Embed-->
+<div id = "container">
+It's Jupiter Broadcasting's (now) old studio!<br />
+<iframe width="640" height="360" src="http://www.youtube.com/embed/IBDY4-W2g-8?feature=player_embedded" frameborder="0" allowfullscreen></iframe><br />
+<!--Google Maps of Oz.-->
+<br />Australia! A place I want to go!(Even if it <strong>does</strong> want to kill me!)<br />
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d906748.2216518486!2d153.00285945000002!3d-27.407389900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b91579aac93d233%3A0x402a35af3deaf40!2sBrisbane+QLD!5e0!3m2!1sen!2sus!4v1395679765024" width="600" height="450" frameborder="0" style="border:0"></iframe><br />
+<br />
+<!--Twitter embed.-->
+It'sa me! Dis song is fun.<br />
+<blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/search?q=%23GSinMotion&amp;src=hash">#GSinMotion</a> <a href="http://t.co/IKBCf3O4GP">http://t.co/IKBCf3O4GP</a>&#10;this song gets me going, for sure!</p>&mdash; José Smythé (@asterather) <a href="https://twitter.com/asterather/statuses/443132713386512384">March 10, 2014</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
+</form>
+</body>
+</html>
