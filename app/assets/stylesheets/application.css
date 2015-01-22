@@ -21,7 +21,7 @@ h1{
 }
 
 body{
-  background-color:orange;
+  background-color: orange;
 }
 
 /*how all the links look and react*/
@@ -29,7 +29,9 @@ a{
   text-decoration:none;
   color:teal;
 }
-
+#pageTitle{
+  text-align: center;
+}
 
 /*This actually worked! Nice! Changes the pink border to blue
 on hover and continues the reactive properties.*/
@@ -54,7 +56,7 @@ on hover and continues the reactive properties.*/
   border: 3px solid black;
   border-radius: 20px;
   height:auto;
-  width:700px;
+  width:50%;
   background-color:teal;
   margin: 0 auto;
   margin-bottom: 10px ;
@@ -91,11 +93,10 @@ p{
   border:3px solid #000666;
   text-align: center;
   border-radius: 70%;
-  height: 300px;
-  width: 500px;
-  position: relative;
+  width: 30%;
+  position: center;
   background-color: teal;
-  margin: 0 auto;
+  margin: auto;
 }
 #foot{
   border-radius: 20px;
@@ -188,4 +189,10 @@ h{
 #background{
   background-image: url('images/wood.jpg');
   color:white;
+}
+
+.copyright{
+  font-family: 'Trebuchet';
+  color:#050aba;
+  text-align:center;
 }
