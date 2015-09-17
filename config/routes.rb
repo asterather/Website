@@ -14,7 +14,7 @@ Website::Application.routes.draw do
   get 'static_pages/admin'
   get 'static_pages/about'
   get 'static_pages/index'
-  root 'static_pages#index'
+ root 'static_pages#index'
   
   match '/admin', to: 'static_pages#admin',    via: 'get'
   match '/about', to: 'static_pages#about',    via: 'get'
